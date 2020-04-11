@@ -26,10 +26,10 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[php artisan ui vue --auth]()**
-- **[npm install]()**
-- **[npm run dev](https://kirschbaumdevelopment.com)**
-- **[php artisan migrate](https://64robots.com)**
+- **[php artisan ui vue --auth](https://github.com/busrasoft/Sinema-Rezervasyon/tree/master/app/Http/Controllers/Auth)**
+- **[npm install]**
+- **[npm run dev]**
+- **[php artisan migrate](https://github.com/busrasoft/Sinema-Rezervasyon/tree/master/database)**
 - **[Cubet Techno Labs](https://cubettech.com)**
 - **[Cyber-Duck](https://cyber-duck.co.uk)**
 - **[British Software Development](https://www.britishsoftware.co)**
