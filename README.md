@@ -3,15 +3,14 @@
 I created laravel project: laravel new blog --auth 
 after created a database.
 
-## Cinema API Laravel 7 
-composer require laravel/ui
-composer require laravel/ui2
-dsafas
-- [I created database].
-- [I created database2].
-- I created database3.
-- I created database4.
-- [Powerful dependency injection container](https://laravel.com/docs/container).
+## Creat a Cinema API Project
+Follow this steps
+
+- composer require laravel/ui
+- laravel new cinema_api --auth
+- npm install
+- npm run dev
+- php artisan migrate
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
 - Database agnostic [schema migrations](https://laravel.com/docs/migrations).
