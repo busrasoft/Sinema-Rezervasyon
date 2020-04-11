@@ -1,6 +1,7 @@
 ## Cinema API Laravel 7 
 
-I created laravel project: laravel new blog --auth 
+I created laravel project: 
+- laravel new blog --auth 
 after created a database.
 
 ## Creat a Cinema API Project
