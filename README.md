@@ -5,6 +5,7 @@ after created a database.
 
 ## Cinema API Laravel 7 
 composer require laravel/ui
+composer require laravel/ui2
 dsafas
 - [I created database](http://127.0.0.1:8000).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
