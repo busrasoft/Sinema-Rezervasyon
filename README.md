@@ -32,23 +32,18 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
         ]);
 - 
 - php artisan db:seed 
+- php artisan migrate:fresh --seed
 
 ## Create Controller Folder
 
 - php artisan make:controller API/PhotoController --api 
+- Create folder in directory: \app\Http\Models 
+- php artisan make:model Models\Cinema
+- php artisan make:model Cinema --migration
+- php artisan make:model Cinema -m
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
 - **[npm install]**
 - **[Cyber-Duck](https://cyber-duck.co.uk)**
 - [UserInsights](https://userinsights.com)
-
-venue_image
-
-num_of_areas
-
-num_of_seats
-
-record_state
-
-deleted_at
