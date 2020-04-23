@@ -14,7 +14,10 @@ class CinemaController extends Controller
      */
     public function index()
     {
-        //
+        //'cinema_image', 'num_areas', 'num_seats', 'state', 'deleted_at',
+        // $cinema=Cinema::get();
+        // dd($cinema);
+        return 'adsf';
     }
 
     /**
