@@ -14,11 +14,26 @@ class CinemaSeeder extends Seeder
     public function run()
     {
         DB::table('cinemas')->insert([
+            [
+            'movie_name' => Str::random(10),
+            'description' => Str::random(100),
             'cinema_image' => Str::random(10),
-            'num_areas' => '123',
-            'num_seats' => '2313',
+            'type_of_movie' => Str::random(10),
+            'screening_date' => '01.01.2021',
+            'num_seats' => '22',
             'state' => '1',
             'deleted_at' => null,
+            ],
+            [
+                'movie_name' => Str::random(10),
+                'description' => Str::random(100),
+                'cinema_image' => Str::random(10),
+                'type_of_movie' => Str::random(10),
+                'screening_date' => '02.02.2022',
+                'num_seats' => '20',
+                'state' => '0',
+                'deleted_at' => null,
+                ],
         ]);
     }
 }

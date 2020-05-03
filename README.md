@@ -19,7 +19,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Create Migrations Folder
 
-- php artisan make:migration create_cınemas_table --create=cinemas
+- php artisan make:migration create_movies_table --create=movies
 - php artisan migrate
 ## Create Seeder Folder
 - php artisan make:seeder CinemaSeeder
